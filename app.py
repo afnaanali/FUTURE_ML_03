@@ -32,11 +32,21 @@ st.markdown("""
         font-weight: 600;
     }
     .metric-card {
-        background-color: #F3F4F6;
+        background-color: #F8FAFC;
         padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        border-radius: 12px;
+        border: 2px solid #3B82F6;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
         text-align: center;
+        color: #0F172A !important;
+    }
+    .metric-card h3 {
+        color: #334155 !important;
+        margin-bottom: 5px;
+    }
+    .metric-card h1 {
+        color: #0F172A !important;
+        margin-top: 0;
     }
     .stButton>button {
         background-color: #2563EB;

@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets and CSVs
+*.csv
+*.pdf
+data/
+Resume/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Streamlit
+.streamlit/

@@ -5,9 +5,9 @@ __pycache__/
 
 # Large Datasets and CSVs
 *.csv
+!Resume/Resume.csv
 *.pdf
 data/
-Resume/
 
 # Virtual environments
 venv/
